@@ -1,0 +1,131 @@
+@function cal($num){
+	@return $num/20;
+}
+.page{
+	background:#fff;
+	font-family:'iconfont';
+	 .top{
+	 	position:fixed;
+	 	top:cal(0rem);
+	 	width:100%;
+	 	height:cal(37rem);
+	 	background:#fafafa;
+	 	border-bottom:1px solid #c9c7c8;
+	 	.left a{
+ 	 	  font-size:cal(12rem);
+ 	 	  color:#6d6d6d;
+ 	 	  line-height:cal(37rem);
+ 	 	  padding-left:cal(15rem);
+	 	}
+	 	.into{
+			font-size:cal(13rem);
+	 	 	color:#5e5e5e;
+	 	 	line-height:cal(37rem);
+	 	 	padding-left:cal(98rem);
+	 	}
+	 }
+	.between{
+	 	font-size:cal(12rem);
+ 	  	color:#999;
+ 	  	margin-top:cal(71rem);
+ 	  	margin-left:cal(131rem);
+	 }
+	.state{
+	 	font-size:cal(21rem);
+	 	color:#333;
+	 	margin-left:cal(117rem);
+	 	margin-top:cal(16rem);
+	 	float:left;
+	 }
+	.right a{
+	 	font-size:cal(18rem);
+	 	color:#6d6d6d;
+	 	padding-top:cal(30rem);
+	 	float:right;
+	 	margin-right:cal(13rem);
+	 }
+	.phone-number{
+		font-size:cal(12rem);
+		color:#666;
+		margin-left:cal(112rem);
+		margin-top:cal(60rem);
+	}
+	.phone{
+		font-size:cal(26rem);
+		border:none;
+		outline:none;
+		text-align:center;
+		margin-top:cal(18rem);		
+	}
+	input::placeholder{
+		color:#edeef1;
+	}
+	.wire{
+		border-bottom:1px solid #edeef1;
+		margin-left:cal(13rem);
+		margin-right:cal(13rem);
+		margin-top:cal(7rem);
+	}
+	.verify{
+		font-size:cal(12rem);
+		color:#666;
+		margin-left:cal(142rem);
+		margin-top:cal(20rem);
+	}
+	.import-data{
+		font-size:cal(26rem);
+		border:none;
+		outline:none;
+		width:cal(140rem);
+		padding-left:cal(95rem);
+		margin-top:cal(18rem);
+		text-align:center;		
+	}
+	input::placeholder{
+		color:#edeef1;
+	}
+	.wire-one{
+		border-bottom:1px solid #edeef1;
+		margin-left:cal(13rem);
+		margin-right:cal(75rem);
+		margin-top:cal(7rem);
+	}
+	.send a{
+		font-size:cal(12rem);
+		color:#ff6885;
+		float:right;
+		margin-top:cal(-20rem);
+		margin-right:cal(13rem);
+	}
+	.enroll{
+		height:cal(42rem);
+		width:cal(294rem);
+		background:#ff1877;
+		border-radius:4px;
+		margin-top:cal(21rem);
+		margin-left:cal(13rem);
+		font-size:cal(13rem);
+		color:#fff;
+		line-height:cal(42rem);
+		text-align:center;
+	}
+	.forget a{
+		color:#999;
+		font-size:cal(12rem);
+		margin-left:cal(12rem);
+		float:left;
+		margin-top:cal(17rem);
+	}
+	.enroll a{
+		color:#ff5777;
+		font-size:cal(12rem);
+		float:right;
+		margin-right:cal(12rem);
+		margin-top:cal(3rem);
+	}
+	a .qq{
+		height:cal(89rem);
+		margin-left:cal(115rem);
+		margin-top:cal(80rem);
+	}
+}
